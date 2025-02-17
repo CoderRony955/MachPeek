@@ -20,7 +20,7 @@
 #define GREEN_TXT "\033[92m"
 #define BLACK_TXT "\033[30m"
 
-// Function prototypes -------------
+// Function prototypes --------------------------------------
 void help();
 std::string welcome_txt(std::string);
 void check_cpu_arch();
@@ -35,7 +35,7 @@ void interact();
 
 
 
-// Functions definations ------------
+// Functions definations ------------------------------------
 void help() {
 	std::string cmd1 = BLACK_TXT CYAN_BG "CCORES   : This command returns your total cores available in your CPU" RESET_TXT;
 	std::string cmd2 = BLACK_TXT CYAN_BG "MEMPAGE  : This command provides infomration about your system's memory Pagesize as per your system architecture" RESET_TXT;
